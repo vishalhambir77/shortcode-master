@@ -2,6 +2,7 @@
 === Shortcode Master ===
 
 Contributors: vishal
+
 Requires at least: 5.0
 
 Requires PHP :5.0
