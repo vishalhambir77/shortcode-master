@@ -27,15 +27,8 @@ feature
 == Installation ==
 This section describes how to install the plugin and get it working.
 1. Upload [`plugin-name`](link-to-github.zip) to the `/wp-content/plugins/` directory
-
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Frequently Asked Questions ==
-= Is this a cool plugin? =
-Yes
-== Screenshots ==
-1. Desktop view
-2. Mobile view
 == Changelog ==
 = v1.0.0 =
 
