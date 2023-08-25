@@ -17,6 +17,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Shortcode Master is a powerful tool that effortlessly create shortcode & injects custom shortcodes into all WordPress posts and pages. With seamless integration, users can enhance content presentation and functionality across the entire website.
 
 == Description ==
+
 The WordPress Shortcode Master Plugin is a versatile tool designed to simplify the integration of custom PHP functionality into your WordPress website through shortcodes. This plugin empowers users to create shortcodes from PHP files and offers the flexibility to add these shortcodes to all pages and posts if desired.
 
 == Features ==
@@ -28,11 +29,10 @@ The WordPress Shortcode Master Plugin is a versatile tool designed to simplify t
 - **Enhanced Reusability:** By encapsulating PHP functions within shortcodes, you can promote code reusability and simplify maintenance across your website.
 
 == Installation ==
+
 This section describes how to install the plugin and get it working.
 1. Upload [`plugin-name`](link-to-github.zip) to the `/wp-content/plugins/` directory
-
 2. Activate the plugin through the 'Plugins' menu in WordPress
-
 
 == Usage ==
 
