@@ -1,6 +1,7 @@
 === Shortcode Master ===
 
 Contributors: vishal hambir
+
 Requires at least: 5.0
 
 Requires PHP :5.0
@@ -14,7 +15,7 @@ License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Shortcode Master is a powerful tool that effortlessly create shortcode & injects custom shortcodes into all WordPress posts and pages. With seamless integration, users can enhance content presentation and functionality across the entire website.
+Shortcode Master is a powerful tool that effortlessly creates shortcode & injects custom shortcodes into all WordPress posts and pages. With seamless integration, users can enhance content presentation and functionality across the entire website.
 
 == Description ==
 
