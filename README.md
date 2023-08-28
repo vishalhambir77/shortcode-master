@@ -1,6 +1,6 @@
 === Shortcode Master ===
 
-Contributors: vishal hambir
+Contributors: Vishal Hambir
 
 Requires at least: 5.0
 
@@ -9,7 +9,6 @@ Requires PHP :5.0
 Tested up to: 6.3
 
 Stable tag: 1.0
-
 
 License: GPLv2 or later
 
@@ -43,12 +42,7 @@ This section describes how to install the plugin and get it working.
 4. Paste the PHP code in **add shortcode** option that you want to insert in pages & posts.
 5. Save your shortcode settings.
 
-== Frequently Asked Questions ==
-= Is this a cool plugin? =
-Yes
-== Screenshots ==
-1. Desktop view
-2. Mobile view
+
 == Changelog ==
 = v1.0.0 =
 
