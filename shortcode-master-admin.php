@@ -8,7 +8,7 @@ Author: Vishal Hambir
 
 
 // Enqueue the JavaScript file
-add_action('admin_enqueue_scripts', 'shortcode_master_enqueue_admin_scripts')
+add_action('admin_enqueue_scripts', 'shortcode_master_enqueue_admin_scripts');
 function shortcode_master_enqueue_admin_scripts(){
   wp_enqueue_script('my-plugin-admin-script', plugin_dir_url(__FILE__) . 'shortcode-master-admin.js', array('jquery'), '1.0', true);
 }
@@ -160,7 +160,7 @@ function shortcode_master_options_page(){
             <?php foreach ($php_files as $index => $page) :
               $filenameWithoutExtension = pathinfo($page, PATHINFO_FILENAME);
             ?>
-              <?php $shortcode = get_option('custom_template_shortcode_' . $filenameWithoutExtension); ?>
+              <?php $shortcode = get_optionssssss('custom_template_shortcode_' . $filenameWithoutExtension); ?>
               <?php if ($shortcode) : ?>
                 <tr>
                   <td><?php echo $page; ?></td>
