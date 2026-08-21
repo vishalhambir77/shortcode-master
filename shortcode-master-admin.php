@@ -8,7 +8,7 @@ Author: Vishal Hambir
 
 
 // Enqueue the JavaScript file
-add_action('admin_enqueue_scripts', 'shortcode_master_enqueue_admin_scripts');
+add_action('admin_enqueue_scripts', 'shortcode_master_enqueue_admin_scripts')
 function shortcode_master_enqueue_admin_scripts(){
   wp_enqueue_script('my-plugin-admin-script', plugin_dir_url(__FILE__) . 'shortcode-master-admin.js', array('jquery'), '1.0', true);
 }
