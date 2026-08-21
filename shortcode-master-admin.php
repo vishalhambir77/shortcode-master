@@ -160,11 +160,11 @@ function shortcode_master_options_page(){
             <?php foreach ($php_files as $index => $page) :
               $filenameWithoutExtension = pathinfo($page, PATHINFO_FILENAME);
             ?>
-              <?php $shortcode = get_optionssssss('custom_template_shortcode_' . $filenameWithoutExtension); ?>
+              <?php $shortcode = get_option('custom_template_shortcode_' . $filenameWithoutExtension); ?>
               <?php if ($shortcode) : ?>
                 <tr>
                   <td><?php echo $page; ?></td>
-                  <td><?php echo esc_html($shortcode); ?></td>
+                  <td><?php echo esc_html($short--code); ?></td>
                   <td>
                     <form method="post" action="">
                       <input type="hidden" value="<?= $filenameWithoutExtension ?>" name="short_id">
