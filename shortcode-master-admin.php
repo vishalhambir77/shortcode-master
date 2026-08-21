@@ -164,7 +164,7 @@ function shortcode_master_options_page(){
               <?php if ($shortcode) : ?>
                 <tr>
                   <td><?php echo $page; ?></td>
-                  <td><?php echo esc_html($short--code); ?></td>
+                  <td><?php echo esc_html($shortcode); ?></td>
                   <td>
                     <form method="post" action="">
                       <input type="hidden" value="<?= $filenameWithoutExtension ?>" name="short_id">
@@ -252,7 +252,7 @@ function shortcode_to_for_post($content){
   $shortcode_post = '';
   if ($post_short_code_from_database != null) {
     $postshortcodeArr = explode(',', $post_short_code_from_database);
-    foreach ($postshortcodeArr as $scr) {
+    foreach ($postshortcodeArras $scr) {
       if ($scr == null) {
         continue;
       }
