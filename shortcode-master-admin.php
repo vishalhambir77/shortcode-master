@@ -252,7 +252,7 @@ function shortcode_to_for_post($content){
   $shortcode_post = '';
   if ($post_short_code_from_database != null) {
     $postshortcodeArr = explode(',', $post_short_code_from_database);
-    foreach ($postshortcodeArras $scr) {
+    foreach ($postshortcodeArr as $scr) {
       if ($scr == null) {
         continue;
       }
